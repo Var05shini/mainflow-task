@@ -1,0 +1,95 @@
+/* LANDING PAGE */
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>task1</title>
+    </head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        body{
+            background-image: url("image.webp");
+            width: 100vw;
+            height: 110vh;
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav {
+            height: 40px;
+            background-color: #063247;
+        }
+        nav ol{
+            float:right;
+            margin-right: 30px;
+        }
+        nav ol li {
+            
+            display: inline-block;
+            padding: 0 15px;
+            color:white;
+            transition: .5s;
+
+        }
+        nav ol li a{
+            color: black; 
+            font-size: 30px; 
+        }
+        nav ol li:hover
+        {
+            background-color: aquamarine;
+        }
+        nav ol li a:active{
+            color:blue;
+        }
+    nav .logo{
+        color:whitesmoke;
+        font-size: 30px;
+        font-weight: lighter;
+        padding-left: 50px;
+
+    }
+    .main{
+        font-size: 25px;
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+        color:black;
+    }
+    .content{
+        text-align:center;
+        padding: 200px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:whitesmoke;
+    }
+
+        
+    </style>
+    <body>
+        <marquee direction="right" bgcolor="skyblue" scorllamount="10" >
+            
+            <div class="main">WELCOME! To HTML&CSS Tutorial</div>
+        </marquee>
+        <nav>
+            <label class="logo">HTML&CSS</label>
+            <ol>
+            <li><a href="#"></a>HOME</li>
+            <li><a href="#"></a>ABOUT US</li>
+            <li><a href="#"></a>MY LEARNING</li>
+            <li><a href="#"></a>LOGIN</li>
+        </ol>
+        </nav>
+        
+        <div class="content">
+            <h1>Greetings to all!</h1>
+            well organised and easy to understand web building Tutorial with lots of examples of how to use HTML&CSS.
+            
+        </div>
+    </body>
+</html>
